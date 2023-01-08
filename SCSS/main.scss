@@ -45,12 +45,12 @@ $mainMargin: 20px;
 
         .image {
             // background
-            background-image: url("../images/image-product-desktop.jpg");
+            background-image: url("./images/image-product-desktop.jpg");
             background-size: cover;
 
             @media (max-width: 768px) {
                 flex-basis: 218px;
-                background-image: url("../images/image-product-mobile.jpg");
+                background-image: url("./images/image-product-mobile.jpg");
             }
         }
 

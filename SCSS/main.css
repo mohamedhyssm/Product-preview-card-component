@@ -49,14 +49,14 @@ body {
   padding: 20px;
 }
 .container .content .image {
-  background-image: url("../images/image-product-desktop.jpg");
+  background-image: url("./images/image-product-desktop.jpg");
   background-size: cover;
 }
 @media (max-width: 768px) {
   .container .content .image {
     -ms-flex-preferred-size: 218px;
         flex-basis: 218px;
-    background-image: url("../images/image-product-mobile.jpg");
+    background-image: url("./images/image-product-mobile.jpg");
   }
 }
 .container .content .text {
