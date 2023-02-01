@@ -17,6 +17,7 @@ $mainMargin: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     // height cnd color
     height: 100vh;
     background-color: hsl(30, 38%, 92%);
